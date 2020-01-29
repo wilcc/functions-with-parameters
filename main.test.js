@@ -1,4 +1,27 @@
 
+let x = 3;
+let y = 10;
+let z = 5;
+let name = 'Wilson';
+let greeting = 'HEY';
+
+function multiply(product){
+  x = x * product;
+}
+function modYBy(divide){
+  y = y % divide
+
+}
+function opposite(positive){
+  z = -positive;
+}
+function makeFullName(space){
+  name = name + ' ' + space
+}
+function yellAt(what){
+  greeting = greeting + ',' + ' ' + what + '!'
+
+}
 
 /*********************************************************************************************************************
 
